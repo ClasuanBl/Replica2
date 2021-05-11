@@ -1,0 +1,107 @@
+@import url(https://allfont.es/allfont.css?fonts=open-sans);
+*{
+margin:0;
+padding:0%;
+}
+
+
+
+header{
+background-image: url(imagenes/Background\ image_edited.png);
+background-size: cover;
+height: 50vh;
+}
+
+
+body{
+font-family: 'Open Sans', arial;
+font-weight: bold;
+color: white;
+}
+
+
+#logo{
+    display: flex;
+    text-align: left;
+    width: 100vw;
+    height: auto;
+    padding-top: 2rem;
+    padding-left: 4rem;
+        
+}
+
+#listado{
+    display: flex;
+    position: right;
+    justify-content: right;
+    width: 190vh;
+    
+}
+
+#menu{
+    display: flex;
+    position: right;
+    justify-content: space-around;
+    font-family: 'Open Sans', arial;
+    font-weight: bold;
+    color: white;
+    width: 90vh;
+    list-style: none;
+    
+}
+#abajo {
+    background-color:lightgrey;
+    padding: 2rem;
+    font-family: 'Open Sans', arial;
+    font-weight: bold;
+    color: #606060;
+    display: flex;
+    position: center;
+    justify-content: space-around;
+   
+
+      
+}
+#parte1{
+    padding-top: 6rem;
+    padding-left: 4rem;
+   
+}
+#boton{
+    background:linear-gradient(to right,#f76b1c,#fad961);
+    transition: all .3s;
+    border-radius: 2em;
+    color:white;
+    height:3rem;
+    width: 11rem;
+    font-family: 'Open Sans', arial;
+    font-weight: bold;
+    
+    }
+
+#bloque{
+    font-family: 'Open Sans', arial;
+    font-size: .75rem;
+    color:#606060;
+    column-count:3;
+    text-align: center;
+    justify-content: center;
+    box-sizing:border-box;
+   
+    margin: 3rem;
+
+    
+}
+
+footer{
+    background-color:lightgrey;
+    color: #606060;
+    display: flex;
+    position: center;
+    justify-content: space-around;
+   
+  
+   
+    
+}
+
